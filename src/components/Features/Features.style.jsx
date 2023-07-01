@@ -63,6 +63,7 @@ export const Container = styled.div`
   p {
     margin-top: 80px;
     color: #333333;
+    padding: 0 16px;
     font-size: 32pt;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -71,6 +72,7 @@ export const Container = styled.div`
   span {
     margin-top: 20px;
     margin-bottom: 36px;
+    padding: 0 16px;
     color: #333333;
     font-size: 16pt;
     font-family: 'Poppins', sans-serif;

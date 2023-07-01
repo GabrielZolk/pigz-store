@@ -11,7 +11,7 @@ export default function Form() {
                         Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.
                     </span>
                 </div>
-                <img src="burguer_3.png" alt="burguer" />
+                
             </TopContent>
             <BottomContent>
                 <div className="bottom-wrapper">

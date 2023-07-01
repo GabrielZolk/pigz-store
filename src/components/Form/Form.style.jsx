@@ -13,7 +13,6 @@ export const TopContent = styled.div`
 
     .top-wrapper {
         position: relative;
-        max-width: 80%;
         z-index: 1;
     }
 
@@ -28,6 +27,7 @@ export const TopContent = styled.div`
             color: white;
             margin: 0 0 30px 0;
             text-align: left;
+            max-width: 80%;
             font-size: 40pt;
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
