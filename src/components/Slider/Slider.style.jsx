@@ -58,5 +58,8 @@ export const SliderContent = styled.div`
     div {
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin: 0 auto; 
+        overflow: hidden; 
     }
 `;

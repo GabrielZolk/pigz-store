@@ -44,7 +44,7 @@ export const Container = styled.div`
         background: linear-gradient(to right, #FF881F, #FA641E);
         border: none;
         outline: none;
-        min-width: 302px;
+        
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -57,5 +57,7 @@ export const Container = styled.div`
 `
 
 export const Pack = styled.div`
-    padding: 0 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
