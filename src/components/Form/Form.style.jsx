@@ -16,11 +16,18 @@ export const TopContent = styled.div`
         z-index: 1;
     }
 
-        img {
+        #burguer {
             position: absolute;
             right: 0px;
-            top: 90px;
+            top: 70px;
             z-index: 0;
+            width: 170px;
+            margin: 0 auto; 
+            overflow: hidden;
+
+            img {
+                width: 260px;
+            }
         }
 
         p {
