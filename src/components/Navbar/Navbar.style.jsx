@@ -11,7 +11,7 @@ export const Logo = styled.img`
 `;
 
 export const NavButton = styled.button`
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     color: white;
     background: linear-gradient(to right, #FF881F, #FA641E);
     border: none;
