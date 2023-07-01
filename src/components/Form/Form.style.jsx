@@ -1,12 +1,12 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  background: linear-gradient(to right, #FF881F, #FA641E);
+  background: linear-gradient(to top, #FF881F, #FA641E);
   padding: 32px 16px;
 `;
 
 export const TopContent = styled.div`
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -28,15 +28,17 @@ export const TopContent = styled.div`
             margin: 0 0 30px 0;
             text-align: left;
             max-width: 80%;
-            font-size: 40pt;
+            line-height: 50px;
+            font-size: 40px;
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
 
         span {
             color: white;
+            text-align: left;
             font-family: 'Poppins', sans-serif;
-            font-size: 16pt;
+            font-size: 16px;
             font-weight: 400;
         }
   
@@ -52,7 +54,7 @@ export const BottomContent = styled.div`
         max-width: 600px;
         padding: 32px 24px 24px;
         background-color: white;
-        border-radius: 20px;
+        border-radius: 30px;
         display: flex;
         flex-direction: column;
         align-items: left;
@@ -60,19 +62,19 @@ export const BottomContent = styled.div`
 
     h5 {
         color: #333333;
-        margin-bottom: 8px;
-        text-align: center;
-        font-size: 28pt;
+        margin-bottom: 6px;
+        text-align: left;
+        font-size: 28px;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
     }
 
     p {
         color: #333333;
-        margin-bottom: 24px;
-        text-align: center;
+        margin-bottom: 6px;
+        text-align: left;
         font-family: 'Poppins', sans-serif;
-        font-size: 13pt;
+        font-size: 13px;
         font-weight: 400;
     }
 
@@ -88,7 +90,7 @@ export const BottomContent = styled.div`
                 margin: 20px 0 6px 0;
                 color: #333333;
                 font-weight: 500;
-                font-size: 12pt;
+                font-size: 12px;
             }
 
             input {
@@ -102,7 +104,7 @@ export const BottomContent = styled.div`
             input::placeholder {
                 color: #CCCCCC;
                 font-weight: 400;
-                font-size: 14pt;
+                font-size: 14px;
             } 
         }
 
@@ -113,18 +115,18 @@ export const BottomContent = styled.div`
         color: #666666;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
-        font-size: 13pt;
+        font-size: 13px;
     }
 
     button {
-        padding: 16px;
+        padding: 12px;
         border-radius: 16px;
         color: #FFFFFF;
         background-color: #FA641E;
         border: none;
         outline: none;
         font-family: 'Poppins', sans-serif;
-        font-size: 16pt;
+        font-size: 16px;
         font-weight: 500;
     }
 `;

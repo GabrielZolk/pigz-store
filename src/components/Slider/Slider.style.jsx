@@ -5,7 +5,7 @@ export const Container = styled.div`
         color: #333333;
         text-align: center;
         margin-bottom: 40px;
-        font-size: 24pt;
+        font-size: 24px;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
     }
@@ -13,20 +13,24 @@ export const Container = styled.div`
     .support-info {
         padding: 0 40px;
             h4 {
-            margin-top: 80px;
-            text-align: center;
-            color: #333333;
-            font-size: 32pt;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
+                margin: 80px auto 0;
+                text-align: center;
+                color: #333333;
+                max-width: 300px;
+                line-height: 38px;
+                font-size: 30px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
         }
 
         p {
-            padding: 0 30px;
+            padding: 0 20px;
             margin: 20px 0 40px 0;
             text-align: center;
+            max-width: 330px;
+            line-height: 23px;
             color: #333333;
-            font-size: 16pt;
+            font-size: 16px;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
         }
@@ -39,15 +43,16 @@ export const DefaultSlider = styled.div`
 
 export const SliderContent = styled.div`
     background: linear-gradient(to top, #FF881F, #FA641E);
-    border-radius: 80px;
+    border-radius: 70px;
 
     p {
-        padding: 40px 40px 85px 40px;
+        padding: 40px 40px 50px 40px;
         color: #FFFFFF;
         text-align: center;
-        font-size: 15pt;
+        font-size: 15px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 300;
+        font-weight: 200;
+        line-height: 20px;
     }
 
     div {

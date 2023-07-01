@@ -17,9 +17,11 @@ export const Container = styled.div`
   }
 
   h4 {
+    margin: 0 auto;
     color: #333333;
     margin-bottom: 80px;
-    font-size: 32pt;
+    max-width: 300px;
+    font-size: 32px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
   }
@@ -45,8 +47,8 @@ export const Container = styled.div`
 
     h5 {
       color: #333333;
-      margin-top: 32px;
-      font-size: 20pt;
+      margin-top: 14px;
+      font-size: 20px;
       font-weight: 600;
       font-family: 'Poppins', sans-serif;
     }
@@ -54,27 +56,30 @@ export const Container = styled.div`
     span {
       color: #333333;
       margin-top: 8px;
-      font-size: 16pt;
+      font-size: 16px;
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
     }
   }
 
   p {
-    margin-top: 80px;
+    margin: 80px auto 0;
     color: #333333;
     padding: 0 16px;
-    font-size: 32pt;
+    max-width: 350px;
+    line-height: 40px;
+    font-size: 32px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
   }
 
   span {
-    margin-top: 20px;
-    margin-bottom: 36px;
+    margin: 20px auto 36px;
     padding: 0 16px;
     color: #333333;
-    font-size: 16pt;
+    max-width: 300px;
+    line-height: 24px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
