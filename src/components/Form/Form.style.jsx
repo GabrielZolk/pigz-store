@@ -91,6 +91,23 @@ export const BottomContent = styled.div`
         .inputBox   {
             text-align: left;
             font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .inputContainer {
+                display: flex;
+                width: 100%;
+            }
+
+            #stateContainer, #numberContainer {
+                width: 35%;
+                margin-right: 15px;
+            }
+
+            #cityContainer, #complementContainer {
+                width: 65%;
+            }
 
             label {
                 display: block;
@@ -135,6 +152,17 @@ export const BottomContent = styled.div`
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 500;
+        cursor: pointer;
+    }
+
+    #button-2 {
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    #button-3 {
+        margin-top: 80px;
+        cursor: pointer;
     }
 `;
 
