@@ -104,6 +104,18 @@ export const Container = styled.div`
             }
 
         #terms {
+            a {
+                text-decoration: none;
+                color: #666666;
+                transition: .3s;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #222222;
+                    transform: scale(1.1);
+                }
+            }
+
             ul {
                 margin-top: 14px;
                 list-style: none;

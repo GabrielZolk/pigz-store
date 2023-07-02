@@ -43,9 +43,9 @@ export default function Footer() {
                 </div>
                 <div id="terms">
                     <ul>
-                        <li>Nossos termos</li>
-                        <li>Privacidade</li>
-                        <li>Ajuda</li>
+                        <a href="#"><li>Nossos termos</li></a>
+                        <a href="#"><li>Privacidade</li></a>
+                        <a href="#"><li>Ajuda</li></a>
                     </ul>
                 </div>
                 <div id="cr">
