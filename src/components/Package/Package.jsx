@@ -16,9 +16,7 @@ export default function Package() {
                     </ul>
                     <span>R$199/mês</span>
                     <button>
-                        <p>
                             Vender no Pigz agora
-                        </p>
                     </button>
                 </div>
             </Pack>
@@ -35,9 +33,7 @@ export default function Package() {
                     </ul>
                     <span>2,99% por transação</span>
                     <button>
-                        <p>
                             Saiba mais
-                        </p>
                     </button>
                 </div>
             </Pack>

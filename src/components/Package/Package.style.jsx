@@ -38,8 +38,8 @@ export const Container = styled.div`
 
     button {
         margin-top: 34px;
-        padding: 12px 64px;
-        border-radius: 24px;
+        padding: 14px 64px;
+        border-radius: 50px;
         color: #FFFFFF;
         background: linear-gradient(to right, #FF881F, #FA641E);
         border: none;
@@ -48,11 +48,7 @@ export const Container = styled.div`
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 500;
-
-        p {
-            box-shadow: 0 20px 24px #FF881F, 0 0 0 #FA641E;
-            color: #FFFFFF; 
-        }
+        box-shadow: 0px 20px 30px -14px #FF881F, 0 0 0 #FA641E; 
     }
 `
 
