@@ -94,6 +94,28 @@ export const BottomContent = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
+            position: relative;
+
+            #country {
+                position: absolute;
+                top: 45px;
+                display: flex;
+                align-items: center;
+                width: 100px;
+                height: 46px;
+                border-radius: 16px;
+                margin-left: 1px;
+                background-color: #F0F0F0;
+                color: #9F9F9F;
+                font-size: 14px;
+                font-weight: 300;
+                font-family: 'Poppins', sans-serif;
+                
+                img {
+                    width: 24px;
+                    margin: 0 8px 0 12px;
+                }
+            }
 
             .inputContainer {
                 display: flex;
@@ -125,10 +147,23 @@ export const BottomContent = styled.div`
                 outline: none;
             }
 
+            select {
+                padding: 15px;
+                width: 100%;
+                border-radius: 16px;
+                border: 1px solid #999999;
+                outline: none;
+                color: #CCCCCC;
+            }
+
             input::placeholder {
                 color: #CCCCCC;
                 font-weight: 400;
                 font-size: 14px;
+            } 
+
+            #tel::placeholder {
+                padding-left: 100px;
             } 
         }
 
