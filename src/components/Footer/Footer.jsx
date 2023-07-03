@@ -11,35 +11,43 @@ export default function Footer() {
                 </span>
             </div>
             <div className="footer-content">
-                <div className="logo">
-                    <img src="pigzLogo2.png" alt="pigz logo gray" />
-                </div>
-                <p>Tudo que você precisa.</p>
-                <span>Baixe o APP</span>
-                <div className="download">
-                    <img src="appstore.png" alt="pigz logo gray" />
-                    <img src="playstore.png" alt="pigz logo gray" />
-                </div>
-                <h4>Pigz</h4>
-                <ul id="about">
-                    <li>Sobre o Pigz</li>
-                    <li>Portal do Parceiro</li>
-                    <li>Quero ser um Pigz Partner</li>
-                </ul>
-                <div className="contact-us">
-                    <div className="contact-icon">
-                        <img src="fale-conosco.png" alt="contact icon" />
-                        <p>Fale conosco</p>
+                <div className="flex">
+                    <div>
+                        <div className="logo">
+                            <img src="pigzLogo2.png" alt="pigz logo gray" />
+                        </div>
+                        <p>Tudo que você precisa.</p>
+                        <span>Baixe o APP</span>
+                        <div className="download">
+                            <img src="appstore.png" alt="pigz logo gray" />
+                            <img src="playstore.png" alt="pigz logo gray" />
+                        </div>
                     </div>
-                    <p>falecom@pigz.com.br</p>
-                    <div id="tel">(95) 3224-2603</div>
-                </div>
-                <div className="socials">
-                    <span>Pigz nas redes</span>
-                    <img src="linkedin.png" alt="linkedin icon" />
-                    <img src="instagram.png" alt="instagram icon" />
-                    <img src="facebook.png" alt="facebook icon" />
-                    <img src="youtube.png" alt="youtube icon" />
+                    <div>
+                        <h4>Pigz</h4>
+                        <ul id="about">
+                            <li>Sobre o Pigz</li>
+                            <li>Portal do Parceiro</li>
+                            <li>Quero ser um Pigz Partner</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div className="contact-us">
+                            <div className="contact-icon">
+                                <img src="fale-conosco.png" alt="contact icon" />
+                                <p>Fale conosco</p>
+                            </div>
+                            <p>falecom@pigz.com.br</p>
+                            <div id="tel">(95) 3224-2603</div>
+                        </div>
+                        <div className="socials">
+                            <span>Pigz nas redes</span>
+                            <img src="linkedin.png" alt="linkedin icon" />
+                            <img src="instagram.png" alt="instagram icon" />
+                            <img src="facebook.png" alt="facebook icon" />
+                            <img src="youtube.png" alt="youtube icon" />
+                        </div>
+                    </div>
                 </div>
                 <div id="terms">
                     <ul>
@@ -56,6 +64,6 @@ export default function Footer() {
                 </div>
             </div>
             <div id="bar"></div>
-        </Container>
+        </Container >
     )
 }

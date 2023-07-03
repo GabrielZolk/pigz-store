@@ -83,5 +83,50 @@ export const Container = styled.div`
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
+
+  @media (min-width: 524px) {
+    h4 {
+      font-size: 2.4rem;
+    }
+  }
+
+  @media (min-width: 804px) {
+    h4 {
+      font-size: 2.9  rem;
+      max-width: 380px;
+    }
+
+    .box {
+      padding: 105px;
+      border-radius: 120px;
+
+    h5 {
+      font-size: 2rem;
+    }
+
+    span {
+      font-size: 1.3rem;
+    }
+  }
+
+  p {
+    max-width: 500px;
+    line-height: 50px;
+    font-size: 2.6rem;
+    }
+
+  span {
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 30px;
+    }
+  }
+
+  @media (min-width: 1148px) {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+    }
+  }
 `;
 

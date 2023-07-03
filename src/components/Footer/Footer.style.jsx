@@ -96,14 +96,15 @@ export const Container = styled.div`
         }
 
         .socials {
-            border-bottom: 1px solid gray;
-
                 img {
-                   margin: 16px 15px 80px 0;
+                   margin: 16px 15px 0px 0;
                 }
             }
 
         #terms {
+            border-top: 1px solid gray;
+            margin-top: 80px;
+
             a {
                 text-decoration: none;
                 color: #666666;
@@ -148,8 +149,20 @@ export const Container = styled.div`
 
     #bar {
         background-color: #FF671F;
-        width: 100vw;
+        width: 100%;
         height: 5px;
         margin-top: 24px;
     }
+
+    @media (min-width: 668px) {
+            .flex {
+                display: flex;
+                align-items: end;
+                justify-content: space-between;
+            }
+
+            #cr {
+                justify-content: space-between;
+            }
+        }
 `;

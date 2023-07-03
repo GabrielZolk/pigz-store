@@ -34,7 +34,7 @@ export default function Slider() {
         <DefaultSlider className={`slider ${activeSlide === 0 ? 'active' : ''}`}>
           <h3>Pigz Marketplace</h3>
           <SliderContent>
-            <p>
+            <p className="text">
               Além de uma página exclusiva, com o Pigz Marketplace sua loja terá mais visibilidade, no app e no site. Uma vitrine com milhares de clientes todos os dias, pra vender muito mais.
             </p>
             <div>
@@ -46,7 +46,7 @@ export default function Slider() {
         <DefaultSlider className={`slider ${activeSlide === 1 ? 'active' : ''}`}>
           <h3>Pigz Gestão</h3>
           <SliderContent>
-            <p>
+            <p className="text">
               Acompanhe suas vendas em tempo real, no computador ou no celular, de onde estiver. Faça alterações de preços e disponibilidade de produtos rapidamente, como deve ser.
             </p>
             <div>
@@ -58,7 +58,7 @@ export default function Slider() {
         <DefaultSlider className={`slider ${activeSlide === 2 ? 'active' : ''}`}>
           <h3>Gestão de entregadores</h3>
           <SliderContent>
-            <p>
+            <p className="text">
               A ferramenta ideal pra quem tem entrega própria. Controle de entregas por motoboy, geração de relatórios por entregas e por taxas de entrega, individualmente.
             </p>
             <div>
@@ -70,7 +70,7 @@ export default function Slider() {
         <DefaultSlider className={`slider ${activeSlide === 3 ? 'active' : ''}`}>
           <h3>Pagamento on-line</h3>
           <SliderContent>
-            <p>
+            <p className="text">
               Segurança e agilidade para receber e entregar pedidos. Seus clientes pagam com Pix ou cartão de crédito pelo app, e o entregador nem precisa levar a maquininha de cartão.
             </p>
             <div>

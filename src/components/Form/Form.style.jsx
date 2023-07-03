@@ -49,7 +49,51 @@ export const TopContent = styled.div`
             font-weight: 400;
         }
   
-    
+        @media (min-width: 524px) {
+            .top-wrapper {
+                    max-width: 80%;
+            }
+
+            #burguer {
+                width: 230px;
+            img {
+                width: 360px;
+            }
+        }
+        }
+
+        @media (min-width: 804px) {
+            .top-wrapper {
+                p {
+                    font-size: 3rem;
+                }
+
+                span {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        
+        @media (min-width: 942px) {
+            #burguer {
+                width: 36%;
+            img {
+                width: 710px;
+            }
+        }
+        }
+        
+        @media (min-width: 1148px) {
+            .top-wrapper {
+                p {
+                    font-size: 3.3rem;
+                }
+
+                span {
+                    font-size: 1.8rem;
+                }
+            }
+        }
 `;
 
 export const BottomContent = styled.div`
@@ -65,6 +109,7 @@ export const BottomContent = styled.div`
         display: flex;
         flex-direction: column;
         align-items: left;
+        z-index: 1;
     }
 
     h5 {

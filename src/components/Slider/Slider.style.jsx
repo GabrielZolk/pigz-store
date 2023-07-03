@@ -68,7 +68,7 @@ export const Container = styled.div`
 
     p {
       padding: 0 20px;
-      margin: 20px 0 10px 0;
+      margin: 20px auto 10px;
       text-align: center;
       max-width: 330px;
       line-height: 23px;
@@ -77,6 +77,40 @@ export const Container = styled.div`
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
     }
+  }
+
+  @media (min-width: 804px) {
+    h3 {
+      font-size: 2.4rem;
+    }
+
+    .text {
+      max-width: 80%;
+      line-height: 23px;
+      font-size: 1.4rem;
+      margin: 0 auto;
+    }
+
+    .slider-bar {
+      width: 128px;
+      margin: 0 5px;
+    }
+
+    .support-info {
+    padding: 0 40px;
+
+    h4 {
+      max-width: 70%;
+      line-height: 38px;
+      font-size: 2.8rem;
+    }
+
+    p {
+      max-width: 70%;
+      line-height: 23px;
+      font-size: 1.4rem;
+    }
+  }
   }
 `;
 

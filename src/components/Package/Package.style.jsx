@@ -1,6 +1,13 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
+    @media (min-width: 942px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+        }
+    }
+
     h3 {
         margin-top: 80px;
         color: #333333;
